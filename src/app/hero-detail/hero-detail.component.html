@@ -1,9 +1,9 @@
 <div *ngIf="hero" class="HeroDetailBox">
-    <h2>{{hero.name}} Details</h2>
-    <div class="Details"><span>ID: </span>{{hero.id}}</div>
-    <div>
+    <div class="upper-box"><h2 class="NameDisplay">{{hero.name}} Details</h2></div>
+      <div class="IdDetails"><span>ID: </span>{{hero.id}}</div>
+      <div class="NameDetails">
       <label for="hero-name">Hero name: </label>
       <input id="hero-name" [(ngModel)]="hero.name" placeholder="name">
-    </div>
+      </div>
   
   </div>
